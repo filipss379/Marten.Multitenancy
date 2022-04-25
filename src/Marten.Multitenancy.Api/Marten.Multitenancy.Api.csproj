@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Marten" Version="5.2.0" />
+        <PackageReference Include="Marten.CommandLine" Version="5.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Marten.Multitenancy.Persistance\Marten.Multitenancy.Persistance.csproj" />
+      <ProjectReference Include="..\Marten.Multitenancy.Projections\Marten.Multitenancy.Projections.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="appsettings.local.json" Condition="Exists('appsettings.local.json')">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

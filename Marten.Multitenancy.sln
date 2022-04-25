@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Multitenancy.Api", "src\Marten.Multitenancy.Api\Marten.Multitenancy.Api.csproj", "{54BD1899-94C2-4A43-BABD-4CE1C3A62876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Multitenancy.Persistance", "src\Marten.Multitenancy.Persistance\Marten.Multitenancy.Persistance.csproj", "{558ECD15-27D1-43A5-83DE-BA571468EABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Multitenancy.Domain", "src\Marten.Multitenancy.Domain\Marten.Multitenancy.Domain.csproj", "{188F4D76-98FC-41AC-AA79-20F6E7C396FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Multitenancy.Projections", "src\Marten.Multitenancy.Projections\Marten.Multitenancy.Projections.csproj", "{A414C528-DD9D-48C6-967E-6E77E2B01B30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54BD1899-94C2-4A43-BABD-4CE1C3A62876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BD1899-94C2-4A43-BABD-4CE1C3A62876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BD1899-94C2-4A43-BABD-4CE1C3A62876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BD1899-94C2-4A43-BABD-4CE1C3A62876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558ECD15-27D1-43A5-83DE-BA571468EABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558ECD15-27D1-43A5-83DE-BA571468EABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558ECD15-27D1-43A5-83DE-BA571468EABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558ECD15-27D1-43A5-83DE-BA571468EABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{188F4D76-98FC-41AC-AA79-20F6E7C396FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{188F4D76-98FC-41AC-AA79-20F6E7C396FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{188F4D76-98FC-41AC-AA79-20F6E7C396FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{188F4D76-98FC-41AC-AA79-20F6E7C396FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A414C528-DD9D-48C6-967E-6E77E2B01B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A414C528-DD9D-48C6-967E-6E77E2B01B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A414C528-DD9D-48C6-967E-6E77E2B01B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A414C528-DD9D-48C6-967E-6E77E2B01B30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
